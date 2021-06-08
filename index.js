@@ -36,9 +36,9 @@ Do the following:
 let one = 1;
 let two = 2;
 if (two > one){
-  one = "Changed"
+  one = "Changed";
 }
-console.log(one)
+console.log(one);
 
 
 
@@ -68,10 +68,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a, b){
+    return a*b;
   }
-
+multiply(5,10);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -84,10 +84,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(years, dogyears){
+    return years*dogyears
 }
-
+console.log(dogYears(1,7))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
