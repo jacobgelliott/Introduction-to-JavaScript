@@ -17,10 +17,9 @@ Do the following:
 
    HINT: no function required
 */
-const votingAge = 18;
-const age = 18;
-if (votingAge => age){
-  return true;
+
+if(votingAge => 18){
+  console.log("true");
 }
 
 /*
@@ -84,10 +83,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(years, dogyears){
-    return years*dogyears
+function dogYears(humanYears){
+    return humanYears * 7;
 }
-console.log(dogYears(1,7))
+console.log(dogYears(5));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -200,9 +199,9 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-    return km*0.62137119;
+    return km*0.621371;
   }
-return(miles(5))
+console.log(miles(5))
 
 
 //Task 5b - Feet to CM
@@ -231,7 +230,7 @@ Using the annoyingSong function below do the following:
 
 function annoyingSong(number){
      for (let i=number;i>=0;i--) {
-       return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down, pass it around, ${i-1} bottles of soda on the wall.`
+       return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i-1} bottles of soda on the wall`
      }
   }
 console.log(annoyingSong(99))
@@ -256,16 +255,16 @@ function grade(score){
     return "you got an A";
   } 
   else if (score <= 89 && score >= 80){
-    return "you got a B;"
+    return "you got a B"
   }
   else if (score <= 79 && score >= 70){
-    return "you got a C;"
+    return "you got a C"
   }
   else if (score <= 69 && score >= 60){
-    return "you got a D;"
+    return "you got a D"
   }
   else if (score < 60){
-    return "you got a F;"
+    return "you got an F"
   }
   }
   
