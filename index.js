@@ -17,8 +17,11 @@ Do the following:
 
    HINT: no function required
 */
-
-
+const votingAge = 18;
+const age = 18;
+if (votingAge => age){
+  return true;
+}
 
 /*
 Task 1b - Values
@@ -30,7 +33,12 @@ Do the following:
 
    HINT: no function required
 */
-
+let one = 1;
+let two = 2;
+if (two > one){
+  one = "Changed"
+}
+console.log(one)
 
 
 
@@ -45,7 +53,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let year = "1999";
+let integer = parseInt(year, 10);
+console.log(integer);
 
 
 
